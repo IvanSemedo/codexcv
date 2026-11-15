@@ -1,0 +1,13 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_CONTENT_FINDER' => 'Conteúdo — Pesquisa inteligente',
+  'PLG_CONTENT_FINDER_XML_DESCRIPTION' => 'Caso não ative este plugin, as alterações aos conteúdos não vão atualizar o índice da pesquisa inteligente.',
+  'PLG_FINDER_QUERY_FILTER_BRANCH_P__' => 'Tudo',
+  'PLG_FINDER_QUERY_FILTER_BRANCH_P_CATEGORY' => 'Categorias',
+  'PLG_FINDER_QUERY_FILTER_BRANCH_P_LANGUAGE' => 'Idiomas',
+  'PLG_FINDER_QUERY_FILTER_BRANCH_P_TYPE' => 'Tipos',
+  'PLG_FINDER_QUERY_FILTER_BRANCH_S_CATEGORY' => 'Categoria',
+  'PLG_FINDER_QUERY_FILTER_BRANCH_S_LANGUAGE' => 'Idioma',
+  'PLG_FINDER_QUERY_FILTER_BRANCH_S_TYPE' => 'Tipo',
+);

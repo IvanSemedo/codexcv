@@ -1,0 +1,33 @@
+  #meuSlider .carousel-item img {
+    height: 700px;
+    object-fit: cover;
+  }
+  #meuSlider .carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,.15));
+    pointer-events: none;
+  }
+  #meuSlider .carousel-caption {
+    z-index: 2;
+    bottom: 15%;
+    text-align: left;
+    left: 8%;
+    right: 8%;
+  }
+  #meuSlider .carousel-caption h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  #meuSlider .carousel-caption p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: #f1f1f1;
+  }
+  @media (max-width: 767px) {
+    #meuSlider .carousel-item img { height: 320px; }
+    #meuSlider .carousel-caption h3 { font-size: 1.4rem; }
+    #meuSlider .carousel-caption p { font-size: .95rem; }
+  }
