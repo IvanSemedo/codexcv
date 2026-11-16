@@ -1,0 +1,26 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'COM_FINDER_ADVANCED_SEARCH' => 'Pesquisa avançada',
+  'COM_FINDER_FILTER_BRANCH_LABEL' => 'Pesquisa por %s',
+  'COM_FINDER_FILTER_SELECT_ALL_LABEL' => 'Pesquisar todos',
+  'COM_FINDER_SELECT_SEARCH_FILTER' => '— Sem filtro —',
+  'MOD_FINDER' => 'Pesquisa inteligente',
+  'MOD_FINDER_CONFIG_OPTION_BOTTOM' => 'Rodapé',
+  'MOD_FINDER_CONFIG_OPTION_TOP' => 'Topo',
+  'MOD_FINDER_FIELD_OPENSEARCH_LABEL' => 'Ativar OpenSearch',
+  'MOD_FINDER_FIELD_OPENSEARCH_TEXT_LABEL' => 'Nome OpenSearch',
+  'MOD_FINDER_FIELDSET_ADVANCED_ALT_LABEL' => 'Rótulo alternativo',
+  'MOD_FINDER_FIELDSET_ADVANCED_SETITEMID_LABEL' => 'Definir ItemID',
+  'MOD_FINDER_FIELDSET_ADVANCED_SHOW_BUTTON_LABEL' => 'Botão de pesquisa',
+  'MOD_FINDER_FIELDSET_ADVANCED_SHOW_LABEL_LABEL' => 'Rótulo do campo de pesquisa',
+  'MOD_FINDER_FIELDSET_BASIC_AUTOSUGGEST_LABEL' => 'Sugestões de pesquisa',
+  'MOD_FINDER_FIELDSET_BASIC_SEARCHFILTER_LABEL' => 'Filtro de pesquisa',
+  'MOD_FINDER_FIELDSET_BASIC_SHOW_ADVANCED_LABEL' => 'Pesquisa avançada',
+  'MOD_FINDER_FIELDSET_BASIC_SHOW_ADVANCED_OPTION_LINK' => 'Ligação para o componente',
+  'MOD_FINDER_OPENSEARCH_NAME' => 'OpenSearch',
+  'MOD_FINDER_SEARCH_VALUE' => 'Pesquisa &hellip;',
+  'MOD_FINDER_SEARCHBUTTON_TEXT' => 'Pesquisar',
+  'MOD_FINDER_SELECT_MENU_ITEMID' => 'Selecione um item de menu',
+  'MOD_FINDER_XML_DESCRIPTION' => 'Este é um módulo de pesquisa inteligente.',
+);
