@@ -1,0 +1,20 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_SYSTEM_ACTIONLOGS' => 'Sistema — Historial de ações de utilizador',
+  'PLG_SYSTEM_ACTIONLOGS_EXTENSIONS_NOTIFICATIONS' => 'Eventos por email',
+  'PLG_SYSTEM_ACTIONLOGS_INFO_DESC' => 'O plugin Joomla — Historial de ações está desativado',
+  'PLG_SYSTEM_ACTIONLOGS_INFO_LABEL' => 'Informação',
+  'PLG_SYSTEM_ACTIONLOGS_JOOMLA_ACTIONLOG_DISABLED' => 'Historial de ações — Joomla',
+  'PLG_SYSTEM_ACTIONLOGS_JOOMLA_ACTIONLOG_DISABLED_REDIRECT' => 'O plugin %s está desativado.',
+  'PLG_SYSTEM_ACTIONLOGS_NOTIFICATIONS' => 'Notificações por email',
+  'PLG_SYSTEM_ACTIONLOGS_OPTIONS' => 'Historial de ações do utilizador: opções',
+  'PLG_SYSTEM_ACTIONLOGS_XML_DESCRIPTION' => 'Regista as ações dos utilizadores no sítio, para que, se necessário, possam ser analisadas.',
+  'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED' => 'O utilizador <a href="{accountlink}" title="Editar utilizador {username}">{username}</a> adicionou um novo {type} <a href="{itemlink}" title="Editar {type} {title}">{title}</a>',
+  'PLG_SYSTEM_ACTIONLOGS_CONTENT_ARCHIVED' => 'O utilizador <a href="{accountlink}" title="Editar utilizador {username}">{username}</a> arquivou o {type} <a href="{itemlink}" title="Edit {type} {title}">{title}</a>',
+  'PLG_SYSTEM_ACTIONLOGS_CONTENT_DELETED' => 'O utilizador <a href="{accountlink}" title="Editar utilizador {username}">{username}</a> eliminou {type} — {title}',
+  'PLG_SYSTEM_ACTIONLOGS_CONTENT_PUBLISHED' => 'O utilizador <a href="{accountlink}" title="Editar utilizador {username}">{username}</a> publicou o {type} <a href="{itemlink}" title="Editar {type} {title}">{title}</a>',
+  'PLG_SYSTEM_ACTIONLOGS_CONTENT_TRASHED' => 'O utilizador <a href="{accountlink}" title="Editar utilizador {username}">{username}</a> enviou para a reciclagem o {type} <a href="{itemlink}" title="Editar {type} {title}">{title}</a>',
+  'PLG_SYSTEM_ACTIONLOGS_CONTENT_UNPUBLISHED' => 'O utilizador <a href="{accountlink}" title="Editar utilizador {username}">{username}</a> despublicou o {type} <a href="{itemlink}" title="Editar {type} {title}">{title}</a>',
+  'PLG_SYSTEM_ACTIONLOGS_CONTENT_UPDATED' => 'O utilizador <a href="{accountlink}" title="Editar utilizador {username}">{username}</a> atualizou o {type} <a href="{itemlink}" title="Editar {type} {title}">{title}</a>',
+);

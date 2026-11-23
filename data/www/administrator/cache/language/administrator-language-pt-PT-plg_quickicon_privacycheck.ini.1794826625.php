@@ -1,0 +1,14 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_QUICKICON_PRIVACYCHECK' => 'Ícone rápido — Notificação de pedidos de privacidade Joomla',
+  'PLG_QUICKICON_PRIVACYCHECK_CHECKING' => 'Verificar pedidos &hellip;',
+  'PLG_QUICKICON_PRIVACYCHECK_ERROR' => 'Pedidos desconhecidos &hellip;',
+  'PLG_QUICKICON_PRIVACYCHECK_GROUP_DESC' => 'O grupo deste plugin (este valor é comparado com o valor do grupo utilizado pelo módulo <strong>Ícones rápidos</strong> para injetar ícones).',
+  'PLG_QUICKICON_PRIVACYCHECK_GROUP_LABEL' => 'Grupo',
+  'PLG_QUICKICON_PRIVACYCHECK_NOREQUEST' => 'Sem pedidos urgentes de privacidade.',
+  'PLG_QUICKICON_PRIVACYCHECK_REQUESTFOUND' => 'Pedidos urgentes de privacidade!',
+  'PLG_QUICKICON_PRIVACYCHECK_REQUESTFOUND_BUTTON' => 'Ver pedidos',
+  'PLG_QUICKICON_PRIVACYCHECK_REQUESTFOUND_MESSAGE' => '%s pedido(s) urgente(s) de privacidade a gerir.',
+  'PLG_QUICKICON_PRIVACYCHECK_XML_DESCRIPTION' => 'Verifica se existem pedidos de privacidade que tenham de ser tratados e notifica-o quando visitar a página do painel de controlo principal.',
+);

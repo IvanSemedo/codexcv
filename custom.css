@@ -1,5 +1,5 @@
     /* Estilos para o slideshow*/
-    
+   /* 
   #meuSlider .carousel-item img {
     height: 700px;
     object-fit: cover;
@@ -128,6 +128,7 @@
 }
 
 */
+/*
 
 .cards-int {
   display: grid;
@@ -153,7 +154,7 @@
   overflow: hidden;
 }
 
-/* círculo decorativo */
+/* círculo decorativo 
 .card-int::before {
   content: "";
   position: absolute;
@@ -219,7 +220,7 @@
   transform: translateX(8px);
 }
 
-/* Responsivo */
+/* Responsivo 
 @media (max-width: 991px) {
   .cards-int { grid-template-columns: repeat(2, 1fr); }
 }
@@ -227,7 +228,7 @@
   .cards-int { grid-template-columns: 1fr; }
 }
 
-/*Courosel de noticias */
+/*Courosel de noticias 
 .news-carousel { padding: 0 50px 40px; }
 
 .news-row {
@@ -269,7 +270,7 @@
 
 
 
-/* Título H2 elegante */
+/* Título H2 elegante 
 
 .article-details h2,
 .sp-module h2,
@@ -290,7 +291,7 @@ h2.titulo-bonito {
 h2.titulo-bonito { display: block; text-align: center; }
 h2.titulo-bonito::after { left: 50%; transform: translateX(-50%); }
 
-/* Barra laranja por baixo */
+/* Barra laranja por baixo 
 .article-details h2::after,
 .sp-module h2::after,
 #sp-main-body h2::after,
@@ -307,7 +308,7 @@ h2.titulo-bonito::after {
   transition: width .3s ease;
 }
 
-/* Barra cresce ao passar o rato */
+/* Barra cresce ao passar o rato
 .article-details h2:hover::after,
 .sp-module h2:hover::after,
 #sp-main-body h2:hover::after,
@@ -336,7 +337,7 @@ h2.titulo-bonito::after {
 }
 
 /*Pagina de noticiass Cards*/
-/* Grelha de notícias */
+/* Grelha de notícias 
 .com-content-category-blog__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -399,7 +400,7 @@ h2.titulo-bonito::after {
   padding: 0;
 }
 
-/* Paginação laranja */
+/* Paginação laranja 
 .pagination .page-link {
   color: #e65100;
   border: 1px solid #ffd9b8;
@@ -433,7 +434,7 @@ h2.titulo-bonito::after {
 
 /* Cards de noticias na pagina de noticias */
 
-/* Grelha */
+/* Grelha 
 .com-content-category-blog__items,
 .com-content-category-blog .blog-items {
   display: grid !important;
@@ -453,7 +454,7 @@ h2.titulo-bonito::after {
   box-shadow: none !important;
 }
 
-/* Card */
+/* Card 
 .noticia-card {
   display: flex;
   flex-direction: column;
@@ -527,7 +528,7 @@ h2.titulo-bonito::after {
   color: #ff6a00;
 }
 
-/* Paginação */
+/* Paginação
 .com-content-category-blog .pagination { justify-content: center; margin-top: 40px; }
 .pagination .page-link {
   color: #e65100;
@@ -542,7 +543,7 @@ h2.titulo-bonito::after {
   color: #fff;
 }
 
-/* Espaçamento */
+/* Espaçamento 
 #sp-main-body { padding: 50px 0; }
 
 @media (max-width: 991px) {
@@ -554,7 +555,7 @@ h2.titulo-bonito::after {
   .com-content-category-blog .blog-items { grid-template-columns: 1fr; }
 }
 
-/* estilo de itens numerados nos artigos */
+/* estilo de itens numerados nos artigos 
 
 .funcoes-grid {
   display: grid;
@@ -577,7 +578,7 @@ h2.titulo-bonito::after {
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
 
-/* barra laranja lateral */
+/* barra laranja lateral 
 .funcao-card::before {
   content: "";
   position: absolute;
@@ -621,7 +622,7 @@ h2.titulo-bonito::after {
   .funcao-card { padding: 22px 20px; }
 }
 
-/* Estilo para os titulos das listas dentro dos artigos */
+/* Estilo para os titulos das listas dentro dos artigos 
 .funcoes-titulo {
   position: relative;
   margin: 40px 0 10px;
@@ -668,7 +669,7 @@ h2.titulo-bonito::after {
   .funcoes-titulo__text { font-size: 1.4rem; }
 }
 
-/* Estilo para a tabela na pagina de subcomites */
+/* Estilo para a tabela na pagina de subcomites 
 
 .tabela-wrap {
   margin: 30px 0;
@@ -686,7 +687,7 @@ h2.titulo-bonito::after {
   font-size: .98rem;
 }
 
-/* Cabeçalho */
+/* Cabeçalho 
 .tabela-bonita thead th {
   padding: 18px 20px;
   text-align: left;
@@ -700,7 +701,7 @@ h2.titulo-bonito::after {
   white-space: nowrap;
 }
 
-/* Células */
+/* Células 
 .tabela-bonita tbody td {
   padding: 18px 20px;
   vertical-align: top;
@@ -712,14 +713,14 @@ h2.titulo-bonito::after {
 
 .tabela-bonita tbody tr:last-child td { border-bottom: 0; }
 
-/* Linhas alternadas */
+/* Linhas alternadas 
 .tabela-bonita tbody tr:nth-child(even) td { background: #fffaf5; }
 
-/* Hover */
+/* Hover 
 .tabela-bonita tbody tr { transition: background .2s ease; }
 .tabela-bonita tbody tr:hover td { background: #fff0e2; }
 
-/* Sigla em destaque */
+/* Sigla em destaque 
 .tabela-sigla {
   display: inline-block;
   padding: 5px 14px;
@@ -733,12 +734,12 @@ h2.titulo-bonito::after {
   white-space: nowrap;
 }
 
-/* Larguras das colunas */
+/* Larguras das colunas 
 .tabela-bonita th:nth-child(1), .tabela-bonita td:nth-child(1) { width: 12%; }
 .tabela-bonita th:nth-child(2), .tabela-bonita td:nth-child(2) { width: 24%; font-weight: 600; color: #222; }
 .tabela-bonita th:nth-child(3), .tabela-bonita td:nth-child(3) { width: 24%; }
 
-/* Telemóvel: cada linha vira um bloco */
+/* Telemóvel: cada linha vira um bloco 
 @media (max-width: 767px) {
   .tabela-bonita thead { display: none; }
 
@@ -772,7 +773,7 @@ h2.titulo-bonito::after {
 }
 
 /* Estilo para os paragrafos*/
-/* Parágrafos dos artigos */
+/* Parágrafos dos artigos 
 .article-details p,
 .com-content-article__body p,
 .article-body p,
@@ -786,7 +787,7 @@ h2.titulo-bonito::after {
   -webkit-hyphens: auto;
 }
 
-/* Links dentro do texto */
+/* Links dentro do texto 
 .article-details p a,
 .com-content-article__body p a,
 .article-body p a {
@@ -805,13 +806,13 @@ h2.titulo-bonito::after {
   background-size: 100% 100%;
 }
 
-/* Negrito e itálico */
+/* Negrito e itálico 
 .article-details p strong,
 .com-content-article__body p strong { color: #222; font-weight: 700; }
 .article-details p em,
 .com-content-article__body p em { color: #555; }
 
-/* Selecionar texto com a cor do site */
+/* Selecionar texto com a cor do site 
 ::selection { background: #ffd9b8; color: #222; }
 
 @media (max-width: 575px) {
@@ -820,7 +821,7 @@ h2.titulo-bonito::after {
   .article-body p { font-size: 1rem; line-height: 1.75; }
 }
 
-/* Estilo para os links Uteis dentro dos artigos */
+/* Estilo para os links Uteis dentro dos artigos 
 .links-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -913,3 +914,5 @@ h2.titulo-bonito::after {
   .links-grid { grid-template-columns: 1fr; }
   .link-card { padding: 18px 18px; }
 }
+
+*/

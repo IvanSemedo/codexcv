@@ -1,6 +1,7 @@
 <?php
 defined('_JEXEC') or die;
 return [
+	'JoomShaper\\Plugin\\Content\\Sppagebuilderloadmodule\\' => [JPATH_PLUGINS . '/content/sppagebuilderloadmodule/src'],
 	'Joomla\\Component\\Actionlogs\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_actionlogs/src'],
 	'Joomla\\Component\\Admin\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_admin/src'],
 	'Joomla\\Component\\Associations\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_associations/src'],
@@ -255,6 +256,7 @@ return [
 	'Joomla\\Plugin\\User\\ContactCreator\\' => [JPATH_PLUGINS . '/user/contactcreator/src'],
 	'Joomla\\Plugin\\User\\Joomla\\' => [JPATH_PLUGINS . '/user/joomla/src'],
 	'Joomla\\Plugin\\User\\Profile\\' => [JPATH_PLUGINS . '/user/profile/src'],
+	'Joomla\\Plugin\\User\\Profileimage\\' => [JPATH_PLUGINS . '/user/profileimage/src'],
 	'Joomla\\Plugin\\User\\Terms\\' => [JPATH_PLUGINS . '/user/terms/src'],
 	'Joomla\\Plugin\\User\\Token\\' => [JPATH_PLUGINS . '/user/token/src'],
 	'Joomla\\Plugin\\WebServices\\Banners\\' => [JPATH_PLUGINS . '/webservices/banners/src'],

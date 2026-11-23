@@ -1,0 +1,13 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_QUICKICON_OVERRIDECHECK' => 'Ícone rápido — Notificação de atualização das sobreposições Joomla',
+  'PLG_QUICKICON_OVERRIDECHECK_CHECKING' => 'A verificar sobreposições &hellip;',
+  'PLG_QUICKICON_OVERRIDECHECK_ERROR' => 'Erro na verificação das sobreposições.',
+  'PLG_QUICKICON_OVERRIDECHECK_ERROR_ENABLE' => 'Ativar plugin <strong>Instalador — Sobreposições</strong>.',
+  'PLG_QUICKICON_OVERRIDECHECK_GROUP_DESC' => 'O grupo deste plugin (este valor é comparado com o valor do grupo utilizado pelo módulo <strong>Ícones rápidos</strong> para injetar ícones).',
+  'PLG_QUICKICON_OVERRIDECHECK_GROUP_LABEL' => 'Grupo',
+  'PLG_QUICKICON_OVERRIDECHECK_OVERRIDEFOUND' => '%s — Sobreposições a validar',
+  'PLG_QUICKICON_OVERRIDECHECK_UPTODATE' => 'As sobreposições estão atualizadas.',
+  'PLG_QUICKICON_OVERRIDECHECK_XML_DESCRIPTION' => '<p>Ao atualizar analisa as sobreposições existentes e ativa notificações quando visitar a página do painel de controlo principal.</p><p><strong>Alerta! O plugin \'Instalador — Sobreposições\' deve estar autorizado para poder ter resultados</strong></p>',
+);

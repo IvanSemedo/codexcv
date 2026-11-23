@@ -1,0 +1,27 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_SYSTEM_SKIPTO' => 'Sistema — Navegação: Saltar para',
+  'PLG_SYSTEM_SKIPTO_ACCESS_KEY' => 'Chave de acesso é $key',
+  'PLG_SYSTEM_SKIPTO_HEADING' => 'Estrutura da página',
+  'PLG_SYSTEM_SKIPTO_HEADING_LEVEL' => 'Nível de títulos',
+  'PLG_SYSTEM_SKIPTO_HEADING_MOFN' => ' ($m de $n)',
+  'PLG_SYSTEM_SKIPTO_HEADING_NONE' => 'Sem títulos para onde saltar',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_ASIDE' => 'Ao lado',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_FOOTER' => 'Rodapé',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_FORM' => 'Formulário',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_HEADER' => 'Cabeçalho',
+  'PLG_SYSTEM_SKIPTO_LANDMARK' => 'Pontos de referência',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_MAIN' => 'Principal',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_NAV' => 'Navegação',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_NONE' => 'Sem pontos de referência para onde saltar',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_REGION' => 'Região/CIM',
+  'PLG_SYSTEM_SKIPTO_LANDMARK_SEARCH' => 'Pesquisar',
+  'PLG_SYSTEM_SKIPTO_MENU' => 'Pontos de referência e estrutura de página',
+  'PLG_SYSTEM_SKIPTO_SECTION' => 'Secção do sítio',
+  'PLG_SYSTEM_SKIPTO_SECTION_ADMIN' => 'Área administrativa',
+  'PLG_SYSTEM_SKIPTO_SECTION_BOTH' => 'Ambos',
+  'PLG_SYSTEM_SKIPTO_SECTION_SITE' => 'Sítio (área de visitantes)',
+  'PLG_SYSTEM_SKIPTO_TITLE' => 'Navegação por teclado',
+  'PLG_SYSTEM_SKIPTO_XML_DESCRIPTION' => 'O plugin cria um menu de seleção composto por ligações para os locais importantes numa determinada página web. Isto torna mais fácil aos utilizadores de leitores de ecrã ou de navegação por teclado saltar rapidamente para o local desejado, escolhendo-o da lista de opções.',
+);
